@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+	background-color: black;
+}
+
+.menu a{
+	text-decoration:none;
+	color:white;
+}
+
+nav li{
+	display:inline-block;
+	margin: 0.5em;
+	color:white;
+	padding: 15px;
+}
+
+header{
+	background-color:rgb(51, 51, 51); 
+	text-align: center;
+	width: 100%;
+  	position: fixed;
+  	z-index: 100;
+  	padding: 8px;
+}
+
+header img{
+	float: left;
+	margin-left: 50px;
+}
+
+.menu li:hover{
+	background-color:grey;
+}
+
+nav li{
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+	border-radius: 10px;
+	width:10%;
+}
+
+
+.foto img{
+	width: 100%;
+	padding-top: 94px;
+	opacity: 0.97;
+	position: relative;
+}
+
+.foto h1{
+	display: block;
+	position: absolute;
+	top: 280px;
+	left:150px;
+	font-size: 280%;
+	font-weight: bold;
+}
+
+.foto h2{
+	display: block;
+	position: absolute;
+	top: 330px;
+	left:230px;
+	font-weight: bold;
+}
+
+.foto{
+	color: white;
+}
+
+.datos1 div{
+	display: inline-block;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20%;
+	border-width: 5px;
+	height:238px;
+	text-align: center;
+	margin: 21px;
+	background-color: grey;
+	width: 25%;
+	opacity: 0.98;
+	height: 150px;
+}
+
+.datos2 div{
+	display: inline-block;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20%;
+	border-width: 5px;
+	height: 230px;
+	text-align: center;
+	margin: 21px;
+	background-color: grey;
+	width: 25%;
+	opacity: 0.98;
+	height: 150px;
+}
+
+.datos1{
+	border-top-style: solid;
+	border-color: black;
+	border-width: 5px;
+	margin-top: -4px;
+	padding-top: 15px;
+	font-family: sans-serif;
+}
+
+.datos2{
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 5px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+}
+
+.datos1 div:hover{
+	background-color:black;
+	color: white;
+}
+
+.datos2 div:hover{
+	background-color: black;
+	color:white;
+
+}
+
+.informacion article{
+	text-align: center;
+	background-color: rgb(1, 13, 23);
+}
+
+.informacion h1{
+	padding-top: 30px;
+	font-size: 180%;
+}
+
+.informacion a{
+	text-decoration:none;
+	color: white;
+}
+
+.informacion div{
+	padding: 5px;
+}
+
+.informacion2{
+	text-align: center;
+	border-bottom-style: solid;
+	border-color: black;
+	border-bottom-width: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-image: url(https://cdn.civitatis.com/italia/roma/guia/vaticano.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.informacion2 div{
+	display: inline-block;
+	border-style: dashed;
+	border-color: rgb(1, 13, 23);
+	border-width: 2px;
+	padding: 7px;
+	margin: 0.5em;
+	background-color: rgba(105, 105, 105,0.7);
+}
+
+.informacion2 h1{
+	font-size: 250%;
+	text-align: left;
+	padding-left: 85px;
+}
+
+.informacion2 div:hover{
+	background-color:white ;
+	text-decoration: underline;
+	opacity: 0.97;
+}
+
+.informacion2 img{
+	height: 40px;
+	margin:2em;
+}
+
+.informacion3{
+	background-color: black;
+	color: white;
+	height: 451px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #A569BD;
+	border-radius: 10px;
+}
+
+.informacion3 div{
+	padding-top: 110px;
+}
+
+.informacion3 h1{
+	color: #A569BD;
+	text-align: center;
+	font-size: 250%;
+	border-top-color: #A569BD;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-color: #A569BD;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-radius: 10px;
+}
+
+.informacion2 a{
+	text-decoration:none;
+	color:black;
+}
+
+.informacion3 img{
+	float: left;
+	height: 400px;
+	margin-left: 60px;
+}
+
+.informacion3 a{
+	color: white;
+}
+
+.oraciones img{
+	margin-top: 15px;
+	height: 100px;
+}
+
+footer {
+  bottom: 0px;
+  background: rgba(105, 105, 105,0.5);
+  text-align: center;
+}
+
+.fin{
+	background-color: black;
+	height: 30px;
+	width: 100%;
+	color: grey;
+}
+
+.redesSociales{
+	background-color: grey;
+	height: 55px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: inline-block;
+	}
+
+.redesSociales img{
+	margin:0.2em;
+}
